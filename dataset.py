@@ -65,9 +65,9 @@ class NCaltech101:
         AEP = tanh(Histogram_neg - Histogram_pos)
         num_events = Histogram_pos + Histogram_neg\
 
-        # ED
-        ED = num_events / num_events.max()
-        result = torch.stack([NET, EET, AEP, ED], dim=2)
+        # NED
+        NED = num_events / num_events.max()
+        result = torch.stack([NET, EET, AEP, NED], dim=2)
 
         encoded_tensor= result.float()
 
