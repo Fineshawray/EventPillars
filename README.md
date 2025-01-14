@@ -4,7 +4,7 @@ The code for paper "EventPillars: Pillar-based Efficient Representations for Eve
 
 ## Proposed representation
 
-![](representation.png)
+![](assets/representation.png)
 
 The dataset.py file contains encoding codes of Ncars data sets and Ncaltech datasets, using the event pillar encoding method described in the article. 
 
