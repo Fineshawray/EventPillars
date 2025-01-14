@@ -14,7 +14,7 @@ The encoded tensors include **NET**(Newest Event Timestamps), **EET**(Earlist Ev
 
 ##  Comparisons of representation time
 
-![](Time.png)
+![](assets/Time.png)
 
 For a fair comparison of encoding speeds, we used the scatter function used in [ERGO12](https://github.com/uzh-rpg/event_representation_study/blob/master/representations/representation_search/operations.py)
 
