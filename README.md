@@ -10,7 +10,7 @@ The dataset.py file contains encoding codes of Ncars data sets and Ncaltech data
 
 
 
-The encoded tensors include **NET**(Newest Event Timestamps), **EET**(Earlist Event Timestamps), **AEP**(Activated Event Polarity) and **NED**(Normalized Event Density)
+The encoded tensors include **NET**(Newest Event Timestamps), **EET**(Earlist Event Timestamps), **AEP**(Activated Event Polarity) and **NED**(Normalized Event Density).
 
 ##  Comparisons of representation time
 
