@@ -40,7 +40,7 @@ class NCaltech101:
         pos = torch.from_numpy(events[events[:, 3] == 1])
         height = int(max(events[:, 1])) + 1
         width = int(max(events[:, 0])) + 1
-
+        # The counting method of the number of positive and negative events is referred to https://github.com/82magnolia/n_imagenet/blob/main/real_cnn_model/data/imagenet.py
         Histogram_neg = torch.bincount(neg[:, 0].long() + neg[:, 1].long() * width,
                                        minlength=height * width).reshape(height, width)
         Histogram_pos = torch.bincount(pos[:, 0].long() + pos[:, 1].long() * width,
