@@ -4,7 +4,7 @@ The code for paper "EventPillars: Pillar-based Efficient Representations for Eve
 
 ## Proposed representation
 
-![](assets/representation.png)
+![](assets/representatio.png)
 
 The dataset.py file contains representation of Ncars datasets and Ncaltech datasets, using the EventPillars representation described in the article. 
 
@@ -14,7 +14,7 @@ The encoded tensors include **NET**(Newest Event Timestamps), **EET**(Earlist Ev
 
 ##  Comparisons of representation time
 
-![](assets/Time.png)
+![](assets/Tim.png)
 
 For a fair comparison of representation time, we used the scatter function used in [ERGO12](https://github.com/uzh-rpg/event_representation_study/blob/master/representations/representation_search/operations.py).
 
